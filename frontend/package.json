@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-circular-progressbar": "^2.0.1",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "react-webcam": "^1.1.1",
+    "react-webcam-capture": "^1.2.1",
     "w3-css": "^4.1.0"
   },
   "scripts": {
