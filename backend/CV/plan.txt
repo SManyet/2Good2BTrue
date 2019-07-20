@@ -1,0 +1,31 @@
+6data collection
+- collection of 2 truths 1 lie vids of static close ups and labeled
+
+data cleaning 1:
+- loops through data/ and copy/chop into 5s intervals
+- frame check eye detection >98% passes
+- make attrib shelf db {'url': {'index', 'parenturl', 'hidden'}}
+- remove instances with missing attributes
+
+data transform 1:
+- track moves in clip >> {'url': {'index': '', 'parenturl': '', 'hidden': bool, 'moves': []}}
+
+data cleaning 2:
+-test for bad pupil detection??????
+
+data transform 2:
+- FFT vert and horizonatal and write to shelf >> {'url': {'index': '', 'parenturl': '', 'hidden': bool, 'moves': [], 'FFTVert': '', 'FFTHoriz': ''}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
